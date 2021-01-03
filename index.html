@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio Week 20 homework</title>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css"> <!--I do not have href="text.css" since it is being recommended to be removed as good practise-->
+    </head>
+
+    <!-- Case Study -->
+    <body>
+        <!--Case Study Navigation. Bootstrap code nav component -->
+        <section> 
+   
+            <ul class="nav justify-content-end"   id="topPage">
+                <li class="nav-item">
+                    <a class="nav-link active" href="https://as-uxui.github.io/UX_UI_HW_19/">Home</a> <!--Insert hw19 link here after new pull-->
+                  </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#myIntro">Introduction</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#myResearch">Research</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#myProblem">Problem Statement</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#myIteration">Iteration</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#myPrototype">Prototype</a>
+                  </li>
+                <!--<li class="nav-item">
+                  <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li> -->
+              </ul>
+        </section>
+
+        <!--Case Study Introduction to business or app.  Bootstrap code Jumbotron -->
+        <section>
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                  <h1 class="display-4">Happy Travels App - Solving travellers problems</h1>
+                  <p class="lead">-a simple and easy to use app to plan your trips</p><br><br>
+                  <p ID="myIntro">Travel tools are useful to plan family, group, solo and business trips. These tools have replaced travel agents. Expanding global economies has created a huge customer base for travel.
+                    Currently, the tools available in the market are either catering to existing members as a service or are trying to expand their member base for ad revenue. 
+                    Our research identified travellers need a simple, easy to use, single app to plan their trips. The wireframes created as part of this study helped me to understand “easy to use” or “simple” is achievable and requires a lot of usability testing.
+                    </p>
+                </div>
+               
+              </div>
+            <!-- DEveloper Note - moved this intro below to the jumbotron above to conform to hw instructions
+                <h3 id="myIntro">Introduction to a mobile travel app</h3>
+            <p>Travel tools are useful to plan family, group, solo and business trips. These tools have replaced travel agents. Expanding global economies has created a huge customer base for travel.
+                Currently, the tools available in the market are either catering to existing members as a service or are trying to expand their member base for ad revenue. 
+                Our research identified travellers need a simple, easy to use, single app to plan their trips. The wireframes created as part of this study helped me to understand “easy to use” or “simple” is achievable and requires a lot of usability testing.
+                </p> -->
+                
+        </section>
+
+        <!--Research section. Bootstrap code card grid layout 8 and 4 cols; 3,3,3,3 cols -->
+        <section>
+            <h3 id="myResearch">Research</h3>
+                <h5>The Problem</h5><p>There is no easy-to-use tool that supports travellers for a unique immersive experience.</p>
+                <h5>The Solution</h5><p>This solution offers the modern traveller the ability to plan their trips using a mobile app. It gives them the flexibility to change plans at their destination to suit needs and budget</p>
+                                
+                <p>My team conducted a research to understand the pain points of travellers.  Qualitative data gleaned from interviews was paired with quantitative data generated from an e-survey. </p>
+                <h5>Pain points:</h5>
+                    <ul>
+                    <li>Using too many tools to plan trips</li>
+                    <li>Difficulty coordinating trips with others</li>
+                    <li>Applications are difficult to navigate and run slowly</li>
+                    </ul>
+                    <br>
+                    <h5>User Insight</h5><p>A traveller on vacation with their young family needs a tool to plan family friendly activities because they want to deepen familial bonds as they explore and enjoy the experience.</p>
+                    <h4>Few of the artifacts produced as part of the research - Ideation</h4><br>
+                    <div class="container"></div>
+                    <div class="row"> <!-- Developer note - moved the cards to a grid structure (cols + cards) from bootstrap-->
+                        <div class="col-sm-3">
+                          <div class="card">
+                            <div class="card-body" style="width:18rem;">
+                                <img src="images/happy travels AffnityDiagram.jpg" class="card-img-top" alt="Affinity Diagram">
+                                <br><br><br><br>
+                              <h5 class="card-title">Affinity Diagram</h5>
+                              <p class="card-text">The affinity diagram was created using the 6 interviews that the team had conducted.
+                                <ul>
+                                Budget Considerations: 
+                                “Budget not an issue”<br>
+                                “I would see what’s cheapest”
+                                </ul></p>
+                              <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-3">
+                          <div class="card">
+                            <div class="card-body" style="width: 18rem;">
+                                <img src="images/happy travels EmpathyMap.jpg" class="card-img-top" alt="Empathy Mapping">
+                                <br><br><br>
+                              <h5 class="card-title">Empathy Mapping</h5>
+                              <p class="card-text">In conclusion, travellers expect a straightforward, “no surprises” experience
+                            </p>
+                             <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card">
+                              <div class="card-body" style="width: 18rem;">
+                                  <img src="images/happy travels Feature prioritization.jpg" class="card-img-top" alt="Feature Prioritization">
+                                <h5 class="card-title">Feature Prioritization</h5>
+                                <p class="card-text">I categorized all the ideation thoughts into this matrix based on priority/impact and complexity. Some of them were hard to place.</p>
+                               <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-sm-3">
+                            <div class="card">
+                              <div class="card-body" style="width: 18rem;">
+                                  <img src="images/happy travels MosCow.jpg" class="card-img-top" alt="Feature Prioritization">
+                                <h5 class="card-title">MoSCow Feature Prioritization</h5>
+                                <p class="card-text">I created a second feature prioritization matrix using MoSCoW. 
+
+                                    I did this to see if there will be any changes to the priorities between the 2 methods.
+                                    </p>
+                               <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+                              </div>
+                            </div>
+                          </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-sm-4">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="images/happy travels JosePorter.PNG" class="card-img-top" alt="User Persona">
+                                    <br><br><br>
+                                    <h5 class="card-title">User Persona</h5>
+                                  
+                                  <p class="card-text">Jose Porter is looking for a tool - a travel app in particular. He loves to travel with his wife and 3 children. A tool that fulfils his needs will earn a loyal user.</p>
+                                 <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+                                </div>
+                              </div>
+
+                        </div>
+                       <div class="col-sm-8">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="images/happy travels Storyboarding.jpg" class="card-img-top" alt="Story Boarding">
+                                  <h5 class="card-title">Story Boarding</h5>
+                                  <p class="card-text">Jose is planning activities in and around London. Stonehenge is #1 on his list</p>
+                                 <!--<a href="#" class="btn btn-primary">Go somewhere</a>-->
+                                </div>
+                              </div>
+                        </div>
+                       </div>
+                    </div>
+                      <!--<div class="row">
+                        <div class="col-sm">col-sm</div>
+                        <div class="col-sm">col-sm</div>
+                        <div class="col-sm">col-sm</div>
+                      </div>  DEveloper note - use if needed to expand and display additional-->
+
+                    
+        </section>
+
+        <!--Case Study Problem Statement.  Bootstrap code Jumbotron  -->
+        <section>
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container">
+                  <h1 class="display-4" ID="myProblem">Problem Statement</h1>
+                    <br><br>
+                  <p>Travel tools are designed to help plan a trip, whether it is to compare prices, make reservations, and/or plan activities. Based on user research, we found that travellers use multiple tools, including google searches because there is no single tool that satisfies their planning needs. This is extremely frustrating for travellers.
+                    How might we build a travel app that facilitates access to pertinent information for the traveller in order to provide a positive travel experience ? How might we quantify the success of the app by the 
+                    <ul><li>number of return visits to app while on vacation to modify itinerary</li>
+                    <li>customer review stars or thumbs up</li></ul> 
+                     
+                    </p>
+                </div>
+               
+              </div>
+           <!-- moved to Jumbotron
+             <h3 id="myProblem">Problem Statement</h3>
+            <p>Travel tools are designed to help plan a trip, whether it is to compare prices, make reservations, and/or plan activities. Based on user research, we found that travellers use multiple tools, including google searches because there is no single tool that satisfies their planning needs. This is extremely frustrating for travellers.
+                How might we build a travel app that facilitates access to pertinent information for the traveller in order to provide a positive travel experience ? How might we quantify the success of the app by the 
+                <ul><li>number of return visits to app while on vacation to modify itinerary</li>
+                <li>customer review stars or thumbs up</li></ul> 
+                                 </p> -->
+        </section>
+
+        <!--Iteration section. Bootstrap code media object list-->
+        <section>
+            <h3 id="myIteration">Iteration Section</h3>
+            <p>I iterated the wireframes and create a link to the set up alerts screen and a link to the coaching screen for alerts in the planning a trip screen. 
+
+                The user flow would logically take the user to the alerts screen when the have confirmed or paying for their trip. The participants in the usability tests would benefit from the alert accessible through a link or a sitemap.
+                </p>
+                <p>I addressed the navigational difficulty of Task 5 in the guerilla usuability tests by iterating 2 wireframes (Confirm trip and Destination search). 
+                    I added a way for the member to set up an alert when they choose to confirm a trip or search for a destination. I would also add a tooltip to the alert or a way to access the coaching screen from the tool tip in the final product.
+                    The clickable digital wireframe was modified to reflect the changes using inVision.</p>
+
+                    <ul class="list-unstyled">
+                        <li class="media">
+                          <img class="mr-3  shrinkIt" src="images/happy travels User Flow 1.png" alt="Generic placeholder image">
+                          <div class="media-body">
+                            <h5 class="mt-0 mb-1">User Flows</h5>
+                            The user flow created using Figma shows onboarding of potential members and also allows a member to plan a trip, book and pay for it. 
+                          </div>
+                        </li>
+
+                        <li class="media my-4">
+                          <img class="mr-3 shrinkIt" src="images/iterated User Flow.png" alt="Generic placeholder image">
+                          <div class="media-body">
+                            <h5 class="mt-0 mb-1">Iterated User Flow</h5>
+                            The user flow would logically take the user to the alerts screen when the have confirmed or paying for their trip. The participants in the usability tests would benefit from the alert accessible through a link or a sitemap.
+                          </div>
+                        </li>
+                        <li class="media">
+                          <img class="mr-3 shrinkIt" src="images/happy travels initial digital wireframe single screenshot.png" alt="Generic placeholder image">
+                          <div class="media-body">
+                            <h5 class="mt-0 mb-1">Digital Wireframes</h5>
+                            I used Figma to create the wireframes using the initial sketches. 
+                          </div>
+                        </li>
+                        <li class="media">
+                            <img class="mr-3 shrinkIt" src="images/modified  destination wireframe.png" alt="Generic placeholder image">
+                            <div class="media-body">
+                              <h5 class="mt-0 mb-1">Iterated Digital Wireframes</h5>
+                              I iterated the wireframes and create a link to the set up alerts screen and a link to the coaching screen for alerts in the planning a trip screen. I added a way for the member to set up an alert when they choose to confirm a trip or search for a destination. I would also add a tooltip to the alert or a way to access the coaching screen from the tool tip in the final product.
+                            </div>
+                          </li>
+                      </ul>
+
+        </section>
+
+        <!--Case Study Prototype DEveloper note - cols/grid container fluid structure to display prototype. Click on link to navigate to inVision -->
+        <section>
+            <h3 id="myPrototype">Prototype</h3>
+            <h5>Tools Used</h5><p>Miro, G suite, UXPressia, vector art, Google.com, Figma, Invision</p><br><br>
+            <h5><a href="https://invis.io/ZWYIKVNPHD2" class="setaborder">Happy Travels Prototype</a></h5>
+            <br><br><br>
+            <div class="container-fluid">
+                <div class="row">
+                  <div class="col-sm-3">Main Screen <br><br>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="images/mainscreen.PNG" alt="Card image cap">
+                        <div class="card-body">
+                          <p class="card-text">This is the main screen for the app.</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-3">
+                    Create Account Screen <br><br>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="images/createaccountscreen.PNG" alt="Card image cap">
+                        <div class="card-body">
+                          <p class="card-text">Easily create your account on the app.</p>
+                        </div>
+                      </div>
+                  </div>
+                  <div class="col-sm-3">
+                    Log In Screen <br><br>
+                    <div class="card" style="width: 18rem;">
+                        <img class="card-img-top" src="images/loginscreen.PNG" alt="Card image cap">
+                        <div class="card-body">
+                          <p class="card-text">Log in to your member account for additional benefits. Free account will not provide full functionality.</p>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            
+
+        </section>
+<footer>  <!--Developer note - navigate to the top of the page-->
+    <div>
+    <ul class="footerUL">
+        <li class="inline-block">Copyright - Arathi Shreeram</li>
+      <li class="inline-block move-to-right"><a href="#topPage">Top of Page</a></li>
+      <!-- <li class="inline-block"><a href="#mySkills">Skills</a></li>
+        <li class="inline-block"><a href="#myWork">Work</a></li> -->
+  
+    </ul>
+    </div>
+</footer>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- THE BELOW SCRIPT TAGS ARE REQUIRED FOR CERTAIN COMPONENTS IN BOOTSTRAP -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,59 @@
+/* smooth scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+.nav {
+    background-color:#373738;
+    color: white;
+}
+
+.nav-link {
+    color:white;
+}
+
+.lead {
+    margin-left:650px;
+}
+
+.shrinkIt{
+    margin-left: 50px;
+    width:125px;
+    height:125px;
+}
+
+.setaborder{
+    border:solid 15px black;
+    margin:500px;
+    padding: 20px;
+
+}
+/* Footer CSS */
+
+footer{
+    background-color:#373738;
+    padding:10px;
+  /*  display:inine-block;*/
+    height:50px;
+}
+
+
+.footerUL{
+    vertical-align: top;
+    list-style-type: none;
+}
+
+li.inline-block {
+    display:inline-block;
+    color:white;
+}
+
+.move-to-right {
+    float: right;
+ 
+}
+
+
+
